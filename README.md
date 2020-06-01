@@ -40,7 +40,7 @@ Ok, how about for some of the fun stuff. Actually playing with the language (syn
 
   
 ### SQL JOINS
-![](image.png)
+![sql-joins-guide.jpg](sql-joins-guide.jpg)
  
   
 ### Full Text Search in Postgres (Optional)
