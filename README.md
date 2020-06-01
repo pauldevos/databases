@@ -21,6 +21,42 @@ Ok, how about for some of the fun stuff. Actually playing with the language (syn
 - https://sqlzoo.net/
 - https://mode.com/sql-tutorial/
 
+
+### SQL Query Format
+
+```SQL
+SELECT
+  u.id,
+  u.first_name,
+  u.last_name,
+  u.birthdate,
+  p.article_id,
+  AVG(p.article_length) as avg_length_articles,
+  SUM(CASE WHEN 'basketball' in p.article_blob THEN 1 ELSE 0 END) as basketball_articles,
+  COUNT(*) as total_articles
+FROM users u
+LEFT JOIN posts p
+  ON u.id = p.author_id
+WHERE
+  u.active = 1
+  AND p.is_draft = 0
+  AND p.published_date > '01/01/2020'
+ORDER BY
+  COUNT(*) DESC,
+  u.last_name
+```
+
+
+
+### SQL JOINS
+
+
+------
+
+![sql-joins-guide.jpg](sql-joins-guide.jpg)
+ 
+------
+
 ### Understanding Indexes
 Here's a couple videos which give a pretty thorough rundown of indexes:
 1. [PostgreSQL Indexing : How, why, and when](https://www.youtube.com/watch?v=clrtT_4WBAw)
@@ -37,16 +73,8 @@ Only attempt to watch these if you're really interested in understanding indexes
   - [https://www.qwertee.io/blog/postgresql-b-tree-index-explained-part-1/](postgresql-b-tree-index-explained)
 4. Covered Indexes
   - [why-covering-indexes-are-incredibly-helpful](https://info.crunchydata.com/blog/why-covering-indexes-are-incredibly-helpful)
-
   
-### SQL JOINS
-
-
-------
-
-![sql-joins-guide.jpg](sql-joins-guide.jpg)
- 
-------
+-------
 
 ### Full Text Search in Postgres (Optional)
 I'm not advocating for Search to be done in Postgres. This is more about the flexibility it offers and if you have smaller projects where you don't want to dedicate something like an ElasticSearch cluster to search. And it's a feature within Postgres you can use and has been fairly productive for many on a reasonable scale.
