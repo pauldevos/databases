@@ -7,3 +7,5 @@
 5. Eloquent JavaScript again (understandings 30%)
 6. Build something
 7. Repeat
+
+- https://eloquentjavascript.net/
