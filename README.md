@@ -18,6 +18,7 @@ Ok, how about for some of the fun stuff. Actually playing with the language (syn
 ### SQL Tutorials
 - https://www.w3schools.com/sql/default.asp
 - https://www.codecademy.com/learn/learn-sql
+- https://www.postgresqltutorial.com/
 - https://sqlzoo.net/
 - https://mode.com/sql-tutorial/
 
@@ -91,6 +92,16 @@ Only attempt to watch these if you're really interested in understanding indexes
   - [https://www.qwertee.io/blog/postgresql-b-tree-index-explained-part-1/](postgresql-b-tree-index-explained)
 4. Covered Indexes
   - [why-covering-indexes-are-incredibly-helpful](https://info.crunchydata.com/blog/why-covering-indexes-are-incredibly-helpful)
+  
+### Official Postgres Documentation (Parts you might read first, but are a bit dryer than most tutorials)
+- [The SQL Syntax](https://www.postgresql.org/docs/12/sql-syntax.html)
+- [Postgres functions](https://www.postgresql.org/docs/12/functions.html)
+- [Queries](https://www.postgresql.org/docs/12/queries.html)
+- [Data Manipulation or DML commands](https://www.postgresql.org/docs/12/dml.html)
+- [Data Definitions or DDL commands](https://www.postgresql.org/docs/12/ddl.html)
+- [Data Types](https://www.postgresql.org/docs/12/datatype.html)
+  
+  
   
 -------
 
