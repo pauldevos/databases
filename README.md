@@ -12,6 +12,14 @@
 
 These are just easy to grab a list of files and load into postgres. There is a COPY command executed via CLI/bash to which can be used and this is used for BULK loads by Data Analysts/Engineers. But that is often wrapped in a Python module called "subprocess" or "os" which executes it as a bash command. I'm not as familiar with using JS (e.g. Node?) for API development, but I imagine whichever ORM you find is best for API development would be the best tool to load data into the Postgres database.
 
+  
+Ok, how about for some of the fun stuff. Actually playing with the language (syntax) and doing things.
+
+### SQL Tutorials
+- https://www.w3schools.com/sql/default.asp
+- https://www.codecademy.com/learn/learn-sql
+- https://sqlzoo.net/
+- https://mode.com/sql-tutorial/
 
 ### Understanding Indexes
 Here's a couple videos which give a pretty thorough rundown of indexes:
@@ -29,20 +37,17 @@ Only attempt to watch these if you're really interested in understanding indexes
   - [https://www.qwertee.io/blog/postgresql-b-tree-index-explained-part-1/](postgresql-b-tree-index-explained)
 4. Covered Indexes
   - [why-covering-indexes-are-incredibly-helpful](https://info.crunchydata.com/blog/why-covering-indexes-are-incredibly-helpful)
-  
-Ok, how about for some of the fun stuff. Actually playing with the language (syntax) and doing things.
-
-### SQL Tutorials
-- https://www.w3schools.com/sql/default.asp
-- https://www.codecademy.com/learn/learn-sql
-- https://sqlzoo.net/
-- https://mode.com/sql-tutorial/
 
   
 ### SQL JOINS
+
+
+------
+
 ![sql-joins-guide.jpg](sql-joins-guide.jpg)
  
-  
+------
+
 ### Full Text Search in Postgres (Optional)
 I'm not advocating for Search to be done in Postgres. This is more about the flexibility it offers and if you have smaller projects where you don't want to dedicate something like an ElasticSearch cluster to search. And it's a feature within Postgres you can use and has been fairly productive for many on a reasonable scale.
 
