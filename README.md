@@ -25,6 +25,7 @@ Ok, how about for some of the fun stuff. Actually playing with the language (syn
 ### SQL Query Format
 
 ```SQL
+-- an example query
 SELECT
   u.id,
   u.first_name,
@@ -44,6 +45,23 @@ WHERE
 ORDER BY
   COUNT(*) DESC,
   u.last_name
+
+
+-- Basic Format
+SELECT
+-- columns
+-- aggregates
+-- window functions
+FROM
+-- JOINS -- LEFT, RIGHT, INNER, OUTER, CROSS, UNION, UNION ALL
+WHERE -- conditional filters for your "RESULT SETS", filtered at runtime of the query
+GROUP BY
+-- use this when you use AGGREGATES in the SELECT part, in effect is is a Map-Reduce Key-mapper for the aggregates
+ORDER BY
+-- ASC by default, DESC if you wish
+HAVING
+-- this is POST runtime, after the results have come through, you can FILTER again, e.g. HAVING articles_authored > 3
+
 ```
 
 
