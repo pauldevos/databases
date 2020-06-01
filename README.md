@@ -1,6 +1,8 @@
 # Databases
 
 
+
+
 ## Postgres Clients for JavaScript
 - [node-postgres](https://node-postgres.com/)
 - [postgres](https://github.com/porsager/postgres)
@@ -27,6 +29,19 @@ Only attempt to watch these if you're really interested in understanding indexes
   - [https://www.qwertee.io/blog/postgresql-b-tree-index-explained-part-1/](postgresql-b-tree-index-explained)
 4. Covered Indexes
   - [why-covering-indexes-are-incredibly-helpful](https://info.crunchydata.com/blog/why-covering-indexes-are-incredibly-helpful)
+  
+Ok, how about for some of the fun stuff. Actually playing with the language (syntax) and doing things.
+
+### SQL Tutorials
+- https://www.w3schools.com/sql/default.asp
+- https://www.codecademy.com/learn/learn-sql
+- https://sqlzoo.net/
+- https://mode.com/sql-tutorial/
+
+  
+### SQL JOINS
+![](image.png)
+ 
   
 ### Full Text Search in Postgres (Optional)
 I'm not advocating for Search to be done in Postgres. This is more about the flexibility it offers and if you have smaller projects where you don't want to dedicate something like an ElasticSearch cluster to search. And it's a feature within Postgres you can use and has been fairly productive for many on a reasonable scale.
