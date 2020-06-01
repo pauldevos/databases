@@ -16,10 +16,12 @@ These are just easy to grab a list of files and load into postgres. There is a C
 Ok, how about for some of the fun stuff. Actually playing with the language (syntax) and doing things.
 
 ### SQL Tutorials
+I tried to put these in chronological order, but your mileage may vary. After you "get it" don't feel at all compelled to run through all of these by any means. And if one isn't clicking with you, move onto the next format.
 - https://www.w3schools.com/sql/default.asp
 - https://www.codecademy.com/learn/learn-sql
 - https://www.postgresqltutorial.com/
 - https://sqlzoo.net/
+- https://www.techonthenet.com/postgresql/index.php
 - https://mode.com/sql-tutorial/
 
 
